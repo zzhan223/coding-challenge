@@ -1,0 +1,29 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "browserify": "^13.0.0",
+    "express": "^4.13.3",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "start": "npm run build && node run server/server.js",
+    "build": "gulp"
+  }
+}

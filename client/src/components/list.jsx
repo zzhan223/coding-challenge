@@ -1,7 +1,4 @@
 var React = require('react');
-var Table = require('fixed-data-table').Table;
-var Column = require('fixed-data-table').Column;
-var Cell = require('fixed-data-table').Cell;
 
 var ItemWrapper = React.createClass({
   handleQuantityChange: function(event){
